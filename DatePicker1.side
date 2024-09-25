@@ -1,0 +1,133 @@
+{
+  "id": "5184b049-c1fc-45a4-8a2f-6178295616f1",
+  "version": "2.0",
+  "name": "DatePicker",
+  "url": "https://rabban-javed.github.io",
+  "tests": [{
+    "id": "032a6010-3711-43b1-9558-687936721748",
+    "name": "datepickerdemo",
+    "commands": [{
+      "id": "c291e01e-bbc7-4de1-bfca-8055d7082aa5",
+      "comment": "",
+      "command": "open",
+      "target": "/DatePicker/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52ddc7f2-29b5-40e4-9302-06dbcfbb847b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e885c4f4-a63d-4e0a-8912-0db28ac144fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=start-date",
+      "targets": [
+        ["id=start-date", "id"],
+        ["css=#start-date", "css:finder"],
+        ["xpath=//input[@id='start-date']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e91235e-e7d4-4c3b-8bfd-b149eef7920f",
+      "comment": "",
+      "command": "type",
+      "target": "id=start-date",
+      "targets": [
+        ["id=start-date", "id"],
+        ["css=#start-date", "css:finder"],
+        ["xpath=//input[@id='start-date']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2024-09-21"
+    }, {
+      "id": "bc3dd18b-3f60-4d10-8870-938806637cfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Daily')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ddb8884-3da1-43da-8454-25c04282b2fb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Daily')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24427554-9adc-45ea-86a8-adbd8236ed2f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Daily')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68ddda37-f87e-4650-92b4-5e38e01bfdbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Weekly')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a7d7157-0a8c-4fa4-af6e-46ea1aacc8ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Monthly')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f01c9d32-9ddc-4bca-97ad-1ad4aebc9cf2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'Yearly')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "05fbda96-c369-403e-8c9b-96d87cd9c6e0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["032a6010-3711-43b1-9558-687936721748"]
+  }],
+  "urls": ["https://rabban-javed.github.io/"],
+  "plugins": []
+}
