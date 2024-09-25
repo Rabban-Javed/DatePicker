@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DatePicker/static/css/main.d221dc40.css",
+    "main.js": "/DatePicker/static/js/main.b3d1859a.js",
+    "index.html": "/DatePicker/index.html",
+    "main.d221dc40.css.map": "/DatePicker/static/css/main.d221dc40.css.map",
+    "main.b3d1859a.js.map": "/DatePicker/static/js/main.b3d1859a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d221dc40.css",
+    "static/js/main.b3d1859a.js"
+  ]
+}
